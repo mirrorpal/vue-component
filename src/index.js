@@ -19,7 +19,7 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 const API = {
     install,
-    ...components
+    Cart
 };
 
 module.exports.default = module.exports = API;
