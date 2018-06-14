@@ -2,12 +2,14 @@ import 'babel-polyfill';
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import App from './app.vue';
-import iView from '../src/index';
-import locale from '../src/locale/lang/en-US';
+import iView from 'iview';
+
+import Index from '../src/index';
+Vue.use(iView);
 // import locale from '../src/locale/lang/zh-CN';
 
 Vue.use(VueRouter);
-Vue.use(iView, { locale });
+Vue.use(Index);
 
 // 开启debug模式
 Vue.config.debug = true;

@@ -1,5 +1,7 @@
 <template>
-    <div>test</div>
+    <div>
+        <Radio>Radio</Radio>
+    </div>
 </template>
 
 <script>
