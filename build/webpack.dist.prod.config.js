@@ -15,8 +15,8 @@ module.exports = merge(webpackBaseConfig, {
     output: {
         path: path.resolve(__dirname, '../dist'),
         publicPath: '/dist/',
-        filename: 'cart.min.js',
-        library: 'cart',
+        filename: 'tydic.min.js',
+        library: 'tydic',
         libraryTarget: 'umd',
         umdNamedDefine: true
     },
